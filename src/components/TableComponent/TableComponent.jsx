@@ -33,7 +33,7 @@ const TableComponent = (props) => {
       .addDataSource(dataSource, {
         str2Percent: true
       })
-      .saveAs("Excel.xlsx");
+      .saveAs("data.xlsx");
   };
   
   return (

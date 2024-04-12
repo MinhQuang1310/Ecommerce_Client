@@ -115,26 +115,18 @@ const ProductDetailsComponent = ({idProduct}) => {
                     <Image src={productDetails?.image} alt="image prodcut" preview={false} />
                     <Row style={{ paddingTop: '10px', justifyContent: 'space-between' }}>
                         <WrapperStyleColImage span={4} sty>
-                            <WrapperStyleImageSmall src={imageProductSmall} alt="image small" preview={false} />
+                            <WrapperStyleImageSmall src={productDetails?.image} alt="image small" preview={false} />
                         </WrapperStyleColImage>
                         <WrapperStyleColImage span={4}>
-                            <WrapperStyleImageSmall src={imageProductSmall} alt="image small" preview={false} />
-                        </WrapperStyleColImage>
-
-                        <WrapperStyleColImage span={4}>
-                            <WrapperStyleImageSmall src={imageProductSmall} alt="image small" preview={false} />
+                            <WrapperStyleImageSmall src={productDetails?.image} alt="image small" preview={false} />
                         </WrapperStyleColImage>
 
                         <WrapperStyleColImage span={4}>
-                            <WrapperStyleImageSmall src={imageProductSmall} alt="image small" preview={false} />
+                            <WrapperStyleImageSmall src={productDetails?.image} alt="image small" preview={false} />
                         </WrapperStyleColImage>
 
                         <WrapperStyleColImage span={4}>
-                            <WrapperStyleImageSmall src={imageProductSmall} alt="image small" preview={false} />
-                        </WrapperStyleColImage>
-
-                        <WrapperStyleColImage span={4}>
-                            <WrapperStyleImageSmall src={imageProductSmall} alt="image small" preview={false} />
+                            <WrapperStyleImageSmall src={productDetails?.image} alt="image small" preview={false} />
                         </WrapperStyleColImage>
 
                     </Row>
