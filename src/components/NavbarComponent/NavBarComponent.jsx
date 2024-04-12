@@ -44,9 +44,9 @@ const NavBarComponent = () => {
 
     return (
         <div>
-            <WrapperLableText>Lable</WrapperLableText>
+            <WrapperLableText>Loại Sản Phẩm</WrapperLableText>
             <WrapperContent>
-                {renderContent('text', ['Tu lanh', 'TV', 'MAYGIAT'])}
+                {renderContent('text', ['Điện Thoại', 'TV', 'Máy Giặt', 'Laptop'])}
             </WrapperContent>
         </div>
     )

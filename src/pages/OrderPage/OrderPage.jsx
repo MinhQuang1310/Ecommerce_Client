@@ -1,7 +1,5 @@
 import {Checkbox, Form } from 'antd'
 import React, { useEffect, useState } from 'react'
-
-
 import { CustomCheckbox, WrapperCountOrder, WrapperInfo, WrapperItemOrder, WrapperLeft, WrapperListOrder, WrapperRight, WrapperStyleHeader, WrapperStyleHeaderDilivery, WrapperTotal } from './style';
 import { DeleteOutlined, MinusOutlined, PlusOutlined} from '@ant-design/icons'
 
@@ -20,7 +18,6 @@ import * as message from '../../components/Message/Message'
 import { updateUser } from '../../redux/slides/userSlide';
 import { useNavigate } from 'react-router-dom';
 import StepComponent from '../../components/StepConponent/StepComponent';
-
 
 const OrderPage = () => {
   const order = useSelector((state) => state.order)
@@ -66,7 +63,7 @@ const OrderPage = () => {
   const handleOnchangeCheckAll = (e) => {
     if(e.target.checked) {
       const newListChecked = []
-      order?.orderItems?.forEach((item) => {
+      order.orderItems.forEach((item) => {
         newListChecked.push(item?.product)
       })
       setListChecked(newListChecked)

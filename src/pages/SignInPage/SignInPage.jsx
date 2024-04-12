@@ -129,7 +129,7 @@ const SignInPage = () => {
         </WrapperContainerLeft>
         <WrapperContainerRight>
           <Image src={imageLogo} preview={false} alt="iamge-logo" height="203px" width="203px" />
-          <h4>Mua sắm tại LTTD</h4>
+          <h4>Mua sắm tại Ecommerce</h4>
         </WrapperContainerRight>
       </div>
     </div >

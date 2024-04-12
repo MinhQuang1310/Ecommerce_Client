@@ -83,7 +83,7 @@ const HeaderComponent = ({ isHiddenSearch = false, isHiddenCart = false }) => {
     <div style={{  heiht: '100%', width: '100%', display: 'flex',background: '#9255FD', justifyContent: 'center' }}>
       <WrapperHeader style={{ justifyContent: isHiddenSearch && isHiddenSearch ? 'space-between' : 'unset' }}>
         <Col span={5}>
-          <WrapperTextHeader to='/'>SHOP</WrapperTextHeader>
+          <WrapperTextHeader to='/'>Ecommerce</WrapperTextHeader>
         </Col>
         {!isHiddenSearch && (
           <Col span={13}>

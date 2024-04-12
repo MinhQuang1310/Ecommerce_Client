@@ -268,19 +268,19 @@ const AdminProduct = () => {
       sorter: (a, b) => a.price - b.price,
       filters: [
         {
-          text: '>= 50',
+          text: '>= 500.000 VND',
           value: '>=',
         },
         {
-          text: '<= 50',
+          text: '<= 500.000 VND',
           value: '<=',
         }
       ],
       onFilter: (value, record) => {
         if (value === '>=') {
-          return record.price >= 50
+          return record.price >= 500000
         }
-        return record.price <= 50
+        return record.price <= 500000
       },
     },
     {
